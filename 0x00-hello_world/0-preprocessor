@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -MT 'c' $CFILE
+gcc -E -MF "c" "$CFILE"
