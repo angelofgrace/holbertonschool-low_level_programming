@@ -15,23 +15,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	char str[10] = (0);
+	int lastval = (n % 10);
 
-	itoa(n, str, 10);
-
-	int lastdig = (strlen(str) - 1);
-
-	if (lastdig > 5)
+	if (lastval > 5)
 	{
-		printf("Last digit of %d is %i and is greater than 5.\n", n, lastdig);
+		printf("Last digit of %d is %i and is greater than 5\n", n, lastval);
 	}
-	else if ((lastdig > 0) && (lastdig < 6))
+	else if (lastval == 0)
 	{
-		printf("Last digit of %d is %i and is less than 6 and not 0\n", n, lastdig);
+		printf("Last digit of %d is %i and is 0\n", n, lastval);
 	}
 	else
 	{
-		printf("Last digit of %d is %i and is 0\n", n, lastdig);
+		printf("Last digit of %d is %i and is less than 6 and not 0\n", n, lastval);
 	}
 
 	return (0);
