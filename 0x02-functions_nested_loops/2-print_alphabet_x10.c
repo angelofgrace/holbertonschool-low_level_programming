@@ -1,16 +1,32 @@
 #include "holberton.h"
 
-void print_alphabet_x10(void);
+/**
+*print_alphabet_x10 - prints the alphabet in lowercase on ten sequential lines
+*
+*return: void
+*/
 
+void print_alphabet_x10(void)
+{
 char alpha;
 
-alpha='a';
+int line;
 
-while (a<='z')
+line = 0;
+
+while (line < 10)
 {
-	int line;
+	alpha = 'a';
 
-	line='0';
+	while (alpha <= 'z')
+	{
+		_putchar(alpha);
 
-	while (line 
+		alpha++;
+	}
+
+	_putchar('\n');
+
+	line++;
+}
 }
