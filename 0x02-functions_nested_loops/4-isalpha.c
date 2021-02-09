@@ -2,9 +2,9 @@
 
 /**
 *_isalpha - determines if a character is a letter
-*@c any integer to represent an ASCII character
+*@c: any integer to represent an ASCII character
 *
-*return: return true for any letter
+*Return: return true for any letter
 */
 
 int _isalpha(int c)

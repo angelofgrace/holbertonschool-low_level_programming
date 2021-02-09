@@ -2,9 +2,9 @@
 
 /**
 *_islower - Determine if a letter is lowercase
-*@c is an integer for any letter of the alphabet
+*@c: is an integer for any letter of the alphabet
 *
-*return: if letter is lowercase, true, if otherwise, false
+*Return: if letter is lowercase, true, if otherwise, false
 */
 
 int _islower(int c)

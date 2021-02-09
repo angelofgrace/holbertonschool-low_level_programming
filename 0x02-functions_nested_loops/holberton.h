@@ -12,3 +12,7 @@ int _islower(int c);
 
 /*determine if a character is a letter*/
 int _isalpha(int c);
+
+/*identify the 'sign' of a number*/
+int print_sign(int n);
+
