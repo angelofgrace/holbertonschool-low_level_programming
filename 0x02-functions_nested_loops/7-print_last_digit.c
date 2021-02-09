@@ -9,7 +9,22 @@
 
 int print_last_digit(int i)
 {
-	i = i % 10;
+	if (i < 0)
+	{
+		i = (i * -1);
+		i = (i % 10);
 
-	return (i);
+		return (i);
+	}
+	else if (i > 0)
+	{
+		i = (i % 10);
+
+		return (i);
+	}
+	else
+	{
+		return (0);
+	}
+
 }
