@@ -1,6 +1,32 @@
 #include "holberton.h"
 
 /**
+*_abs - calculate the absolute value of an integer
+*@val: any number within the scope of int
+*
+*Return: return the absolute value of input integer
+*/
+
+int _abs(int val)
+{
+	if (val < 0)
+	{
+		val = val * -1;
+
+		return (val);
+	}
+	else if (val > 0)
+	{
+	return (val);
+	}
+	else
+	{
+		return (0);
+	}
+}
+
+
+/**
 *print_last_digit - isolate the last digit of a number
 *@i: any integer
 *
@@ -9,23 +35,14 @@
 
 int print_last_digit(int i)
 {
-	if (i < 0)
-	{
-		i = (i * -1);
-		i = (i % 10);
-		_putchar(i);
-		return (i);
-	}
-	else if (i > 0)
-	{
-		i = (i % 10);
-		_putchar(i);
-		return (i);
-	}
-	else
-	{
-		_putchar(0);
-		return (0);
-	}
-	
+
+	int dig;
+
+	dig = _abs(i);
+
+	dig = dig % 10;
+
+	_putchar(dig);
+
+	return (dig);
 }
