@@ -19,3 +19,6 @@ int print_sign(int n);
 /*print an integer's absolute value*/
 int _abs(int val);
 
+/*isolate the last digit of a number*/
+int print_last_digit(int i);
+

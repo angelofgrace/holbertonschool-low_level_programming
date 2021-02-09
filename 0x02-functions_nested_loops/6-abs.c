@@ -2,7 +2,7 @@
 
 /**
 *_abs - calculate the absolute value of an integer
-*@int: any number within the scope of int
+*@val: any number within the scope of int
 *
 *Return: return the absolute value of input integer
 */
