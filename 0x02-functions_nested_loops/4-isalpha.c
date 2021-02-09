@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+*_isalpha - determines if a character is a letter
+*@c any integer to represent an ASCII character
+*
+*return: return true for any letter
+*/
+
 int _isalpha(int c)
 {
 	if ((c >= 97) && (c <= 122))
