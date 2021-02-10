@@ -25,3 +25,6 @@ int print_last_digit(int i);
 /*print every minute of the day*/
 void jack_bauer(void);
 
+/*add two integers, return the result*/
+int add(int a, int b);
+
