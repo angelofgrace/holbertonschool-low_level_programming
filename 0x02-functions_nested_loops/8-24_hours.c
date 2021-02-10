@@ -14,7 +14,7 @@ void jack_bauer(void)
 
 		if (hr_tens < 2)
 		{
-		while (hr_ones <= 10)
+		while (hr_ones < 10)
 		{
 			int min_tens;
 
