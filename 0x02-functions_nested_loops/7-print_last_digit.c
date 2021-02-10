@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "stdio.h"
 
 /**
 *_abs - calculate the absolute value of an integer
@@ -42,7 +43,7 @@ int print_last_digit(int i)
 
 	dig = dig % 10;
 
-	_putchar(dig);
+	_putchar(dig + '0');
 
 	return (dig);
 }
