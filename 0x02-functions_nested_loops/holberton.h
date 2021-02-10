@@ -22,3 +22,6 @@ int _abs(int val);
 /*isolate the last digit of a number*/
 int print_last_digit(int i);
 
+/*print every minute of the day*/
+void jack_bauer(void);
+
