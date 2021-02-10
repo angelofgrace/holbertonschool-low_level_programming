@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 
 int add(int a, int b)
 {
