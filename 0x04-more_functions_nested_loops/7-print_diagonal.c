@@ -30,9 +30,4 @@ void print_diagonal(int n)
 		x = y;
 		n--;
 	}
-
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
 }
