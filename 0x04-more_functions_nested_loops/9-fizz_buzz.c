@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
-/
+/** 
+*main - replace multiples of five and three while counting to 100
 *
+* return: 0;
+*/
 
 
 int main(void)
@@ -29,8 +32,10 @@ int main(void)
 			printf("%d ", i);
 		}
 
-		printf("\n");
+		i++;
 	}
+
+	printf("\n");
 
 	return (0);
 }
