@@ -24,5 +24,9 @@ void more_numbers(void);
 
 /*print a line with n number of underscores*/
 void print_line(int n);
+
+/*print a diagonal line of slashes buffered by whitespace*/
+void print_diagonal(int n);
+
 #endif
 
