@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "holberton.h"
-/** 
-*main - replace multiples of five and three while counting to 100
+/**
+*fizzy_buzzy - replace multiples of five and three while counting to 100
 *
 * return: 0;
 */
@@ -36,6 +36,17 @@ void fizzy_buzzy(void)
 	}
 
 	printf("\n");
+}
+
+/**
+* main - execute function
+*
+* Return: true
+*/
+
+int main(void)
+{
+	fizzy_buzzy();
 
 	return (0);
 }
