@@ -21,5 +21,8 @@ void print_most_numbers(void);
 
 /*print numbers zero through fourteen, ten times*/
 void more_numbers(void);
+
+/*print a line with n number of underscores*/
+void print_line(int n);
 #endif
 
