@@ -28,3 +28,6 @@ void jack_bauer(void);
 /*add two integers, return the result*/
 int add(int a, int b);
 
+/*display the 9 'times table'*/
+void times_table(void);
+
