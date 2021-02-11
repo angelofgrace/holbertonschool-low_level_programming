@@ -15,5 +15,8 @@ int mul(int a, int b);
 
 /*use _putchar to print numbers zero through nine*/
 void print_numbers(void);
+
+/*print all single digit numbers, except two and four*/
+void print_most_numbers(void);
 #endif
 
