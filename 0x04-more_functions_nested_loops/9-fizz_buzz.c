@@ -7,7 +7,7 @@
 */
 
 
-int main(void)
+void fizzy_buzzy(void)
 {
 	int i;
 

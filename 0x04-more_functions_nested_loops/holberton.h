@@ -28,5 +28,8 @@ void print_line(int n);
 /*print a diagonal line of slashes buffered by whitespace*/
 void print_diagonal(int n);
 
+/*fizz buzz test*/
+void fizzy_buzzy(void);
+
 #endif
 
