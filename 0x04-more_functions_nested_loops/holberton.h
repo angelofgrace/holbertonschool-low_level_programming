@@ -34,6 +34,9 @@ void fizzy_buzzy(void);
 /*print a square of variable size using '#' characters*/
 void print_square(int size);
 
+/*print any integer using custom putchar*/
+void print_number(int n);
+
 
 
 #endif
