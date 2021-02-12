@@ -31,5 +31,10 @@ void print_diagonal(int n);
 /*fizz buzz test*/
 void fizzy_buzzy(void);
 
+/*print a square of variable size using '#' characters*/
+void print_square(int size);
+
+
+
 #endif
 
