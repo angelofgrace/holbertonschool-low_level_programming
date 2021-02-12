@@ -13,7 +13,7 @@ void fizzy_buzzy(void)
 
 	i = 1;
 
-	while (i <= 100)
+	while (i <= 99)
 	{
 		if (i % 15 == 0)
 		{
@@ -35,7 +35,11 @@ void fizzy_buzzy(void)
 		i++;
 	}
 
+	if (i = 100)
+	{
+	printf("Buzz");
 	printf("\n");
+	}
 }
 
 /**
