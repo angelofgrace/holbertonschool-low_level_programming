@@ -35,7 +35,7 @@ void fizzy_buzzy(void)
 		i++;
 	}
 
-	if (i = 100)
+	if (i == 100)
 	{
 	printf("Buzz");
 	printf("\n");
