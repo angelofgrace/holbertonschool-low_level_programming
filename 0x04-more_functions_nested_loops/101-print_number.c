@@ -11,21 +11,25 @@ void print_number(int n)
 {
 int x;
 
+unsigned int i;
+
+i = n; 
+
 x = 0;
 
 if (n < 0)
 {
 	_putchar('-');
-	n = n * -1;
+	i = n * -1;
 }
 
-while (n >= 1)
+while (i >= 1)
 {
 	x = x * 10;
 
-	x = x + (n % 10);
+	x = x + (i % 10);
 
-	n = n / 10;
+	i = i / 10;
 }
 
 while (x >= 0)
