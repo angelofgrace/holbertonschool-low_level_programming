@@ -8,13 +8,16 @@
 
 int main(void)
 {
-	int star;
+	int C, q;
 
-	star = 'A';
-
-	for (star = 'A', star <= 'z', star++)
+	for (q = 'a'; q <= 'z'; q++)
 	{
-		putchar(star);
+		putchar(q);
+	}
+
+	for (C = 'A'; C <= 'Z'; C++)
+	{
+		putchar(C);
 	}
 
 	putchar('\n');
