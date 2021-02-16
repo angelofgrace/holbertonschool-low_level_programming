@@ -2,7 +2,7 @@
 
 /**
 * reset_to_98 - reset value of target of input pointer to 98
-* @*n: external pointer to an integer value
+* @n: external pointer to an integer value
 *
 * Return: none
 */
