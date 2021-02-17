@@ -22,6 +22,10 @@ void print_rev(char *s);
 /** Task 5 - Reverse a string*/
 void rev_string(char *s);
 
+/** Task 6 - Print every other character of a string*/
+void puts2(char *str);
+
+
 
 
 #endif
