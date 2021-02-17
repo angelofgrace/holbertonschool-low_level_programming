@@ -28,6 +28,11 @@ void puts2(char *str);
 /** Task 7 - Print the second half of a string*/
 void puts_half(char *str);
 
+/** Task 8 - Print n elements of an array*/
+void print_array(int *a, int n);
+
+/** Task 9 - Copy a string to another point in memory*/
+char *_strcpy(char *dest, char *src);
 
 
 
