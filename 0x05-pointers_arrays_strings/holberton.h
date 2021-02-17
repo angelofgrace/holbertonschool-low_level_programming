@@ -19,6 +19,8 @@ void _puts(char *str);
 /** Task 4 - Print a string of characters in reverse*/
 void print_rev(char *s);
 
+/** Task 5 - Reverse a string*/
+void rev_string(char *s);
 
 
 
