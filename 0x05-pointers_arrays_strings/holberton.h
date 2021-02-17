@@ -25,6 +25,9 @@ void rev_string(char *s);
 /** Task 6 - Print every other character of a string*/
 void puts2(char *str);
 
+/** Task 7 - Print the second half of a string*/
+void puts_half(char *str);
+
 
 
 
