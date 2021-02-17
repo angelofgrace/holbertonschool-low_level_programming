@@ -16,6 +16,9 @@ int _strlen(char *s);
 /** Task 3 - Print a string of characters followed by newline*/
 void _puts(char *str);
 
+/** Task 4 - Print a string of characters in reverse*/
+void print_rev(char *s);
+
 
 
 
