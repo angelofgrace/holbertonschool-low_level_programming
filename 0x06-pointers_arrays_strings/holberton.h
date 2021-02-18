@@ -13,5 +13,9 @@ char *_strncpy(char *dest, char *src, int n);
 /** Task 3 - Compare two strings using ASCII values*/
 int _strcmp(char *s1, char *s2);
 
+/** Task 4 - Reverse the content of an array of integers*/
+void reverse_array(int *a, int n);
+
+
 
 #endif
