@@ -3,7 +3,7 @@
 void swap_int(int *a, int *b);
 
 /**
-* rev_array - reverse the order of integers in an array
+* reverse_array - reverse the order of integers in an array
 * @a: array of integers of any length
 * @n: number of elements in the array
 *
