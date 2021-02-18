@@ -4,6 +4,8 @@
 /** Task 0 - Smoosh together two strings of characters*/
 char *_strcat(char *dest, char *src);
 
+/** Task 1 - Concatenate two strings, using n bytes from src*/
+char *_strncat(char *dest, char *src, int n);
 
 
 
