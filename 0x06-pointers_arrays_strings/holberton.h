@@ -22,4 +22,8 @@ char *string_toupper(char *c);
 /** Task 6 - Capitalize all words of a string*/
 char *cap_string(char *c);
 
+/**Task 7 - Tr4nsl4t3 to 1337*/
+char *leet(char *);
+
+
 #endif
