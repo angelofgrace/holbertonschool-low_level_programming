@@ -16,6 +16,7 @@ int _strcmp(char *s1, char *s2);
 /** Task 4 - Reverse the content of an array of integers*/
 void reverse_array(int *a, int n);
 
-
+/** Task 5 - Capitalize all lowercase letters of a string*/
+char *string_toupper(char *c);
 
 #endif
