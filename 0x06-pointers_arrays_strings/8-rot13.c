@@ -22,6 +22,7 @@ for (n = 0; c[n] != 00; n++)
 		if (c[n] == in[x])
 		{
 			c[n] = out[x];
+			break;
 		}
 	}
 }
