@@ -24,4 +24,9 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
 
+
+/** Task 8 - set the value of a pointer to a char */
+void set_string(char **S, char *to);
+
+
 #endif
