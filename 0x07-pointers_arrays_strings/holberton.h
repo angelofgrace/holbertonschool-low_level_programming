@@ -20,5 +20,8 @@ unsigned int _strspn(char *s, char *accept);
 /** Task 4 - search a string for any of a set of bytes */
 char *_strpbrk(char *s, char *accept);
 
+/** Task 5 - locate a substring */
+char *_strstr(char *haystack, char *needle);
+
 
 #endif
