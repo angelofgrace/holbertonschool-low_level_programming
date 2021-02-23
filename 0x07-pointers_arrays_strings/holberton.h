@@ -17,5 +17,8 @@ char *_strchr(char *s, char c);
 /** Task 3 - find the length of prefix substring */
 unsigned int _strspn(char *s, char *accept);
 
+/** Task 4 - search a string for any of a set of bytes */
+char *_strpbrk(char *s, char *accept);
+
 
 #endif
