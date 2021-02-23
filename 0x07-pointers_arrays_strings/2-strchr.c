@@ -20,12 +20,6 @@ char *_strchr(char *s, char c)
 			break;
 	}
 
-	if (s[i] == 00)
-	{
-		return ("NULL");
-	}
-	else
-	{
 	return (&s[i]);
-	}
+
 }
