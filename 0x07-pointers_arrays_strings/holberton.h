@@ -14,7 +14,8 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 /** Task 2 - locate a character within a string */
 char *_strchr(char *s, char c);
 
-
+/** Task 3 - find the length of prefix substring */
+unsigned int _strspn(char *s, char *accept);
 
 
 #endif
