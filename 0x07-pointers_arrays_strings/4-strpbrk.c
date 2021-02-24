@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
 * _strpbrk - locate the first occurance of a set of bytes
@@ -23,6 +24,12 @@ char *_strpbrk(char *s, char *accept)
 		if (s[i] == accept[j])
 			break;
 	}
-
+	if (s[i] == '\0')
+	{
+	return (NULL);
+	}
+	else
+	{
 	return (&s[i]);
+	}
 }
