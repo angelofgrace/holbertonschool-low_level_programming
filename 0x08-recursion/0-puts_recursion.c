@@ -1,5 +1,11 @@
 #include "holberton.h"
-#include <stdio.h>
+
+/**
+* _puts_recursion - recursively output subsequent characters in a string
+* @s: a string literal of any length
+*
+* Return: void
+*/
 
 void _puts_recursion(char *s)
 {
