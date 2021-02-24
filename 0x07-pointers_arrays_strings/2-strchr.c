@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
 * _strchr - locate the first instance of a specified character
@@ -19,7 +20,12 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 			break;
 	}
-
+	if (s[i] != c)
+	{
+	return (NULL);
+	}
+	else
+	{
 	return (&s[i]);
-
+	}
 }
