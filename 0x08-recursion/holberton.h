@@ -16,6 +16,9 @@ int _strlen_recursion(char *s);
 /** Task 3 - Calculate the factorial of an inpute number */
 int factorial(int n);
 
+/** Task 4 - Calculate the value of x to the power of y */
+int _pow_recursion(int x, int y);
+
 
 
 
