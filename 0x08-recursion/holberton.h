@@ -13,6 +13,9 @@ void _print_rev_recursion(char *s);
 /** Task 2 - Find the length of a string */
 int _strlen_recursion(char *s);
 
+/** Task 3 - Calculate the factorial of an inpute number */
+int factorial(int n);
+
 
 
 
