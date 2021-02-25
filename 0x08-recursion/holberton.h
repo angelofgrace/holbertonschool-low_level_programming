@@ -19,6 +19,13 @@ int factorial(int n);
 /** Task 4 - Calculate the value of x to the power of y */
 int _pow_recursion(int x, int y);
 
+/** Task 5 - Calculate the natural square root of a number */
+int _sqrt_recursion(int n);
+
+/** Task 6 - Idenfity whether an integer is a prime number */
+int is_prime_number(int n);
+
+
 
 
 
