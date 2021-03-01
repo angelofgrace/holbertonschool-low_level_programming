@@ -1,13 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* main - Multiple two integers received as command line arguments
+* @argc: number of command line arguments
+* @argv: array containing all command line arguments
+*
+* Return: 1 on Error (insufficient arguments), 0 on success
+*/
+
 int main(int argc, char *argv[])
 {
 	int num1, num2;
 
 	if (argc < 2)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 
@@ -16,6 +24,4 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", (num1 * num2));
 	return (0);
-	
-
 }
