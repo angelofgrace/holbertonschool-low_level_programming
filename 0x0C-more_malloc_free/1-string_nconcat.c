@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* string_nconcat - Concatenate two strings in newly allocated memory
+* @s1: string literal, initial string
+* @s2: string literal, secondary string, will use n characters from
+* @n: number of characters of second string to add to first string
+*
+* Return: NULL on malloc fail, else pointer to new string
+*/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
@@ -13,7 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (p == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	for (i = 0; s1[i] != 00; i++)
