@@ -2,6 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* _calloc - allocate memory for an array and fill it with 00
+* @nmemb: number of elements to make up the array
+* @size: size of each element in the array
+*
+* Return: pointer to the new array
+*/
+
 
 
 void *_calloc(unsigned int nmemb, unsigned int size)
