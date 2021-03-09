@@ -18,17 +18,11 @@ void print_dog(struct dog *d)
 	{
 		printf("Oops");
 	}
-
-	printf("Name: %s\n", strnil((*d).name));
-
-	if ((*d).age == 00)
-	{
-		printf("Age: (nil)\n");
-	}
 	else
 	{
-		printf("Age: %f\n", (*d).age);
+	printf("Name: %s\n", strnil((*d).name));
+	printf("Age: %f\n", (*d).age);
+	printf("Owner: %s\n", strnil((*d).owner));
 	}
 
-	printf("Owner: %s\n", strnil((*d).owner));
 }
