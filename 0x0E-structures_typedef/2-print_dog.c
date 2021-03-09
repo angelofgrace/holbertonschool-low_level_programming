@@ -4,6 +4,13 @@
 
 #define strnil(data) ((data) == NULL ? ("(nil)") : (data))
 
+/**
+* print_dog - print the contents of struct, dog
+* @d: pointer to struct, dog
+*
+* Return: void
+*/
+
 void print_dog(struct dog *d)
 {
 
