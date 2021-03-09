@@ -10,18 +10,20 @@
 * Description: truly, good dogs
 */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 /** Task 1 - Initialize struct dog with input information */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 /** Task 2 - Print the contents of struct dog */
 void print_dog(struct dog *d);
+
+
 
 
 /** DOG_H endif */
