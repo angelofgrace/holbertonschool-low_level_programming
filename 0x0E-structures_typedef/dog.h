@@ -17,5 +17,9 @@ struct dog
 	char *owner;
 };
 
+/** Task 1 - Initialize struct dog with input information */
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+
 /** DOG_H endif */
 #endif
