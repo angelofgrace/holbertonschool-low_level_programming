@@ -26,7 +26,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 	/** iterate through array elements */
 	for (i = 0; i < size; i++)
 	{
-
 		/**if element returns true, return pointer to it*/
 		if (cmp(array[i]) == 1)
 		{
