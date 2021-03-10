@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * int_index - Find the first element of input array for which
@@ -15,6 +16,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 
 	int i;
+
+	/** NULL case */
+	if (array == NULL || cmp == NULL)
+	{
+		exit(0);
+	}
 
 	/** iterate through array elements */
 	for (i = 0; i < size; i++)
