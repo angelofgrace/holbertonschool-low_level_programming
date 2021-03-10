@@ -20,7 +20,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	/** NULL case */
 	if (array == NULL || cmp == NULL)
 	{
-		return(-1);
+		return (-1);
 	}
 
 	/** iterate through array elements */
