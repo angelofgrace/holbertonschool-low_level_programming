@@ -10,6 +10,9 @@ int sum_them_all(const unsigned int n, ...);
 /** Task 1 - Print all input numbers */
 void print_numbers(const char *separator, const unsigned int n, ...);
 
+/** Task 2 - Print all input strings */
+void print_strings(const char *separator, const unsigned int n, ...);
+
 
 
 
