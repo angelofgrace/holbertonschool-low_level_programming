@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	
+
 	printf("%i\n", get_op_func(argv[2])(a, b));
 
 	return (0);
