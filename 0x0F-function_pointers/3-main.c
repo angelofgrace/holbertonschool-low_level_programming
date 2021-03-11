@@ -28,12 +28,12 @@ int main(int argc, char *argv[])
 
 	if (get_op_func(argv[2]) == NULL)
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(99);
 	}
 	if (b == 0 && (argv[2][0] == '/' || argv[2][0] == '%'))
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(100);
 	}
 
