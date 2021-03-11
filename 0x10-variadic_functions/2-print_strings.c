@@ -1,6 +1,14 @@
 #include "variadic_functions.h"
 
-void print_strings(const char *separator, const unsigned int n,...)
+/**
+* print_strings - print all input strings
+* @separator: the separator to print between strings
+* @n: number of input strings to follow
+*
+* Return: void
+*/
+
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 
 	va_list strings, strchk;
