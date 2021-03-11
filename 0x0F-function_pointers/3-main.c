@@ -2,7 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc,char *argv[])
+/**
+* main - perform mathematical operations on two input integers
+* @argc: number of command line inputs, should be 4
+* @argv: value of command line inputs, two integers and one operand
+*
+* Return: result of mathemtaical functions
+*/
+
+int main(int argc, char *argv[])
 {
 
 	int a, b;
