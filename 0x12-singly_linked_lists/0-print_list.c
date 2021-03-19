@@ -11,6 +11,8 @@ size_t print_list(const list_t *h)
 {
 	unsigned int count;
 
+	count = 0;
+
 	while (h != NULL)
 	{
 		if (h->str == NULL)
