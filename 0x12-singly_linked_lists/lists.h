@@ -33,6 +33,9 @@ list_t *add_node(list_t **head, const char *str);
 /* Add a new node to the end of a list_t linked list */
 list_t *add_node_end(list_t **head, const char *str);
 
+/* Free a list_t linked list */
+void free_list(list_t *head);
+
 /* Find the length of a string of characters */
 unsigned int _strlen(char *s);
 
