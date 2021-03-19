@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+* add_node_end - Add a node to the end of a linked list
+* @head: pointer to a pointer to the first node in the linked list
+* @str: data to input to the new node
+*
+* Return: pointer to the new node of the linked list
+*/
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *i_node;
@@ -27,10 +35,9 @@ list_t *add_node_end(list_t **head, const char *str)
 			i_node = i_node->next;
 		}
 		i_node->next = new;
-		return(i_node);
+		return (i_node);
 	}
 }
-
 
 
 /**
