@@ -27,5 +27,11 @@ size_t print_list(const list_t *h);
 /* Find the number of elements in a linked list_t list */
 size_t list_len(const list_t *h);
 
+/* Add a new node to the begginning of a list_t linked list */
+list_t *add_node(list_t **head, const char *str);
+
+/* Determine the length of a string -- helper function */
+unsigned int _strlen(char *s);
+
 
 #endif
