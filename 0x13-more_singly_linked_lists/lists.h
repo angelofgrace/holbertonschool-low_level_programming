@@ -24,7 +24,8 @@ typedef struct listint_s
 /*	and return the number of nodes within */
 size_t print_listint(const listint_t *h);
 
-
+/* Task 1 - Find the number of elements in a listint_t linked list */
+size_t listint_len(const listint_t *h);
 
 
 /* LISTS.H endif */
