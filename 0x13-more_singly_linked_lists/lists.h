@@ -30,6 +30,12 @@ size_t listint_len(const listint_t *h);
 /* Task 2 - Add a new node to the beginning of a listint_t linked list */
 listint_t *add_nodeint(listint_t **head, const int n);
 
+/* Task 3 - Add a new node to the end of a listint_t linked list */
+listint_t *add_nodeint_end(listint_t **head, const int n);
+
+/* Task 4 - Free a listint_t list */
+void free_listint(listint_t *head);
+
 
 /* LISTS.H endif */
 #endif
