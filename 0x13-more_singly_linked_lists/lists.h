@@ -36,6 +36,9 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 /* Task 4 - Free a listint_t list */
 void free_listint(listint_t *head);
 
+/* Task 5 - Free a listint_t list, setting the head to NULL */
+void free_listint2(listint_t **head);
+
 
 /* LISTS.H endif */
 #endif
