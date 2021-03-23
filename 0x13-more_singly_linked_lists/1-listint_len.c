@@ -11,6 +11,8 @@ size_t listint_len(const listint_t *h)
 {
 	unsigned long int count;
 
+	count = 0;
+
 	while (h != NULL)
 	{
 		count++;
