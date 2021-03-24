@@ -9,7 +9,7 @@
 
 void free_listint(listint_t *head)
 {
-	list_t *i_node;
+	listint_t *i_node;
 
 	while (head != NULL)
 	{
