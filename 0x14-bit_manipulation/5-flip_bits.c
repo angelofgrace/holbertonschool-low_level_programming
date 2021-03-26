@@ -12,7 +12,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int q; /* contrast string */
 	unsigned int counter; /* count of differing digits */
-	
+
 	counter = 0;
 
 	q = n ^ m; /* q is the result of Bitwise XOR n and m */
