@@ -18,6 +18,9 @@ void print_binary(unsigned long int n);
 /* Task 2 - find the value of a bit at a given index */
 int get_bit(unsigned long int n, unsigned int index);
 
+/* Task 3 - Set the valueof a bit at a given index */
+int set_bit(unsigned long int *n, unsigned int index);
+
 
 /* HOLBERTON_H end */
 #endif
