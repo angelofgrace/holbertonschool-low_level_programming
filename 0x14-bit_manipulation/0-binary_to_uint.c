@@ -45,7 +45,6 @@ unsigned int binary_to_uint(const char *b)
 		}
 
 	result += bit << c;
-	printf("Cumulative counter %u\n", result);
 	}
 
 	return (result);
