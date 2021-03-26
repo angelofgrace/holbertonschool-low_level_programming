@@ -15,6 +15,9 @@ unsigned int binary_to_uint(const char *b);
 /* Task 1 - Print the binary representation of a number */
 void print_binary(unsigned long int n);
 
+/* Task 2 - find the value of a bit at a given index */
+int get_bit(unsigned long int n, unsigned int index);
+
 
 /* HOLBERTON_H end */
 #endif
