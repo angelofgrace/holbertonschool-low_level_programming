@@ -1,3 +1,5 @@
 #!/bin/bash
-gcc -c -Wall -Werror -fpic *.c
-gcc -shared -o liball.so *.o
+for i in *.c
+do
+    gcc -g3 -o3 "$i" -o "${i%.c}.out"
+done
